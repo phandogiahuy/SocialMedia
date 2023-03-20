@@ -1,0 +1,22 @@
+<link rel='stylesheet' href='/api/public/css/register.css' />
+<div class='Register'>
+  <div class='register'>
+    <div class='RegisterWrapper'>
+      <div class='RegisterLeft'>
+        <h3 class='RegisterLogo'>HiDi Social</h3>
+        <span class='RegisterDesc'> Connect with we and The World around you on HiDi Social</span>
+      </div>
+      <div class='RegisterRight'>
+        <div class='RegisterBox'>
+          <form action='/auth/register' method='post'>
+            <input placeholder='UserName' class='RegisterInput' name='UserName' required />
+            <input placeholder='Email' class='RegisterInput' name='Email' type='email' required />
+            <input placeholder='Password' class='RegisterInput' type='password' name='Password' required />
+            <button class='RegisterButton' type='submit'>Sign Up</button>
+          </form>
+          <a href='/auth/login'><button class='Register'> Log into Account </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

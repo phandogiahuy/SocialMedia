@@ -1,0 +1,330 @@
+.BodyContainer {
+    display: flex;
+    width: 100%;
+}
+
+/* SideBarLeft*/
+.SideBarLeft {
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+}
+
+.SideBarLeftWrapper {
+    padding: 20px;
+}
+
+.SideBarLeftList {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.SideBarLeftListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.SideBarLeftName {
+    font-weight: bold;
+}
+
+.material-icons-two-tone {
+    margin-right: 15px;
+}
+
+.SideBarLeftButton {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.SideBarLeftHr {
+    margin: 20px 0;
+}
+
+.SideBarLeftFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.SideBarLeftFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.SideBarLeftFriendImage {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+/* Mid*/
+/* Feeds*/
+.MidContainer {
+    flex: 5.5;
+}
+
+.FeedsWrapper {
+    padding: 20px;
+}
+
+.FeedShare {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.47);
+}
+
+.FeedShareWrapper {
+    padding: 10px;
+}
+
+.shareTop {
+    display: flex;
+    align-items: center;
+}
+
+.ShareProfilePicture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.ShareInput {
+    border: none;
+    width: 80%;
+}
+
+.ShareInput:focus {
+    outline: none;
+}
+
+.shareHr {
+    margin: 20px;
+}
+
+.shareBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions {
+    display: flex;
+    margin-left: 20px;
+}
+
+.shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#shareIcon {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.shareOptionText {
+    font-weight: bold;
+}
+
+.ShareButton {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+    cursor: pointer;
+    color: white;
+}
+
+/*post*/
+.PostWrapperShare {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.47);
+    margin: 30px 0px;
+}
+
+.PostWrapper {
+    padding: 10px
+}
+
+.PostTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PostTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.PostProfileImage {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.PostUserName {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.PostDate {
+    font-size: 12px;
+}
+
+.PostMid {
+    width: 100%;
+}
+
+.PostImage {
+    margin-top: 10px;
+    width: 99%;
+    padding: 5px;
+    max-height: 700px;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+.PostText {
+    display: flex;
+    margin-left: 5px;
+}
+
+.PostBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.PostBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+#LikeIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+.LikeCounter {
+    font-size: 15px;
+}
+
+.PostComment {
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
+
+/* SideBarRight*/
+.SideBarRight {
+    flex: 3.5;
+}
+
+.SideBarRightWrapper {
+    padding: 20px 20px 0 0;
+}
+
+.birthDayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImage {
+    width: 40px;
+    height: 40px;
+}
+
+.birthdayText {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.SideBarRightAd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.SideBarRightTitle {
+    margin-bottom: 15px;
+}
+
+.FriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.RightBarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.RightBarProfileImageContainer {
+    margin-right: 10px;
+    position: relative;
+}
+
+.RightBarProfileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.RightBarOnline {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: lawngreen;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+
+.RightBarUserName {
+    font-weight: 500;
+}

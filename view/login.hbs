@@ -1,0 +1,21 @@
+<link rel='stylesheet' href='/api/public/css/login.css' />
+<div class='Login'>
+  <div class='login'>
+    <div class='loginWrapper'>
+      <div class='loginLeft'>
+        <h3 class='loginLogo'>HiDi Social</h3>
+        <span class='loginDesc'> Connect with we and The World around you on HiDi Social</span>
+      </div>
+      <div class='loginRight'>
+        <div class='LoginBox'>
+          <form action='/auth/login/' method='post'>
+            <input placeholder='Email' class='loginInput' name='email' required />
+            <input placeholder='Password' class='loginInput' name='password' type='password' required />
+            <button class='loginButton' type='submit'>Log In</button>
+          </form>
+          <a href='/auth/register'><button class='Register'> Create a new account </button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
